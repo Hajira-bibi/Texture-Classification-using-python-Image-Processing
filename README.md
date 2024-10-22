@@ -5,9 +5,9 @@ This project demonstrates texture classification using **Local Binary Pattern (L
 
 ## Project Structure
 ImageProcessingClass/ ├── fabric/ # Folder containing fabric images ├── glass/ # Folder containing glass images ├── wood/ # Folder containing wood images ├── texture.py # Python script for texture classification └── README.md # This README file
-To create your own dataset:
 
-## Create a folder named CustomDataset in your project directory.
+## To create your own dataset:
+ Create a folder named CustomDataset in your project directory.
 Inside CustomDataset, create subfolders for your classes (e.g., metals, plastics, ceramics).
 Add relevant images to each class folder.
 Update the class paths in your code like this:
